@@ -1,0 +1,32 @@
+###
+GET   http://localhost:4000/api/employees
+
+###
+POST    http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name": "Mike Drual",
+    "position": "Junior Developer",
+    "office": "Bogota",
+    "salary": 13400
+}
+
+###
+GET   http://localhost:4000/api/employees/621452f29c8a30707828f6f0
+
+
+###
+DELETE    http://localhost:4000/api/employees/621452b89c8a30707828f6ec
+
+###
+PUT http://localhost:4000/api/employees/621452f29c8a30707828f6f0
+Content-Type: application/json
+
+{
+    "salary": 15700
+}
+
+
+
+
